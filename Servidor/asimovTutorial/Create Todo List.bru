@@ -1,0 +1,17 @@
+meta {
+  name: Create Todo List
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:3000/api/v1/libs/create-todo
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name":"teste"
+  }
+}

@@ -1,0 +1,26 @@
+meta {
+  name: Create Component
+  type: http
+  seq: 7
+}
+
+post {
+  url: http://localhost:3000/api/v1/libs/list/66b962153eeb1ef52329f985/create-component
+  body: json
+  auth: bearer
+}
+
+headers {
+  : 
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiJ9.eyJpZCI6IjY2Yjk2MWZlM2VlYjFlZjUyMzI5Zjk4MyIsImVtYWlsIjoiYnJ1bm8yMDAyLnJhaWFkb0BnbWFpbC5jb20iLCJuYW1lIjoiQnVubyBCaWFuY2hpIiwicGFzc3dvcmQiOiIkMmIkMTAkeW41dmtFdHNIMHJ2ZXp3bThyWmtwLm13TXpXZ0Fhb1Z3a2VTeEFta2hTVVJ1TE5TM0pwUFciLCJpYXQiOjE3MjM0MjUyNzgsImlzcyI6InVybjpyZWdpc3RlciJ9.OGsxe5_7Yk2XYq3EpklaCrQfM4c4cybJE9dHGmxPvZo
+}
+
+body:json {
+  {
+    "name":"teste21",
+    "description":"opa,tudo bem?"
+  }
+}

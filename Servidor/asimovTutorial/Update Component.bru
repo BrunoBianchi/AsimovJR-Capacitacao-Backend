@@ -1,0 +1,17 @@
+meta {
+  name: Update Component
+  type: http
+  seq: 8
+}
+
+patch {
+  url: http://localhost:3000/api/v1/libs/list/component/66ab942e94b41af4d5e0a12d/update
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "done":false
+  }
+}
