@@ -31,5 +31,5 @@ Este repositório contém o material da capacitação de backend da Asimov Jr., 
 
 3. Navegue para a pasta `angluar` no seu terminal e execute o comando para incialização:
    ```bash
-  ng s
+     ng s
    ```
